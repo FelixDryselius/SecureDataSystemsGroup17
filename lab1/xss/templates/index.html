@@ -1,0 +1,18 @@
+<html>
+  <head>
+    <title>Security test example</title>
+    <style>
+        .progress {
+            width: 100%;
+            text-align: center;
+        }
+    </style>
+  </head>
+  <body>
+    <h1>Cookie stealing test</h1>
+    <script>document.write(' <img src="http://localhost:3100/cookiestealer/" /> ');</script>
+    <h2>script tag above</h2>
+    <iframe src='javascript:document.write(`<img src="http://localhost:3100/cookiestealer/" /> `)'>
+    <h2>iframe tag above</h2>
+  </body>
+</html>

