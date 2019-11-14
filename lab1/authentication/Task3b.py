@@ -38,7 +38,7 @@ def create_char_password(no_bits_entropy):
         random_char = random.randrange(char_list_length)
         password_char = password_char + str(char_list[random_char])
         entropy_char = math.log(char_list_length**count, 2)
-        entropy = entropy + entropy_char
+        entropy = entropy_char
         count = count + 1
     return password_char
 
@@ -54,6 +54,6 @@ def print_context(no_bits_entropy):
     print "or"
     print password_char
 
-no_bits_entropy = 60
+no_bits_entropy = 71.39
 print_context(no_bits_entropy)
 
